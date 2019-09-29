@@ -3,7 +3,7 @@
 
 ### Blog Structure
 
-The blog has one main goal: **To enable the users to create posts about any kind of subject.**
+The blog has one main goal: **To enable the users to create posts about any kind of subject.** \
 In order to make that happen, I had to create a login system, a CRUD system using SQLite to storage users and their posts, all of that using Python's microframework Flask.
 
 ### Flask Specifications
