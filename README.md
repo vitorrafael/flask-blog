@@ -45,7 +45,7 @@ export FLASK_DEBUG=1
 ## Running With Docker
 In order to use docker in the application, follow the instructions bellow. \
 **Information:** The words that are within brackets - []-  represents variables that you must insert in order to make the flaskblog works like it should. \
-**Information 2:** Remember to have Docker installed in your computer \
+**Information 2:** Remember to have Docker installed in your computer
 
 1. Build the docker image:
 ``` shell
