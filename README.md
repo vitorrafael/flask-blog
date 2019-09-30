@@ -42,3 +42,20 @@ flask run
 ``` shell
 export FLASK_DEBUG=1
 ```
+## Running With Docker
+In order to use docker in the application, follow the instructions bellow. \
+**Information:** The words that are within brackets - []-  represents variables that you must insert in order to make the flaskblog works like it should. \
+**Information 2:** Remember to have Docker installed in your computer
+
+1. Build the docker image:
+``` shell
+docker build -t flaskapp:latest .
+```
+
+2. Run the docker container:
+``` shell
+docker run -d -it -p [YOUR PORT HERE]:5000 -e EMAIL_USERNAME='[EMAIL USED IN RESET FUNCTIONS]' -e EMAIL_PASSWORD='[PASSWORD FOR THAT EMAIL]' -e SECRET_KEY='[YOUR SECRET_KEY]' flaskapp
+```
+
+3. Access 0.0.0.0:_[PORT]_;
+**WARNING:** Make sure the selected port is available!!!
